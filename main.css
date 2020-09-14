@@ -1,0 +1,67 @@
+body{
+	background-color:rgb(240,240,240);
+}
+ul{
+	list-style:none;
+	background-color:blue;
+}
+ul li{
+	float:left;
+	margin-right:5px;
+	padding:5px;
+	background-color:rgb(86,96,255);
+	text-align:center;
+}
+ul li:hover{
+	background-color:blue;
+	border: 1px solid red;
+}
+#menu{
+	position:absolute;
+	left:300px;
+	top:100px;
+	margin:0px;
+	padding-top:5px;
+	background-color:
+
+}
+#corporate_banking{
+	position:absolute;
+	left:700px;
+	top:170px;
+    height:200px;
+	width:500px;
+	border:1px solid red;
+	text-align:center;	
+}
+#personal_banking{
+	
+	position:absolute;
+	left:150px;
+	top:170px;
+	float:left;
+    height:200px;
+	width:500px;
+	border:1px solid red;
+	text-align:center;
+}
+#personal_banking label{
+	font-size:30px;
+}
+#corporate_banking label{
+	font-size:30px;
+}
+
+#pl{
+	width:100px;
+	height:30px;
+	background-color:rgb(65,65,255);
+}
+
+.wrapper{
+    
+    width:95%;
+	height:120px;
+    margin:0px auto;
+    
+      }

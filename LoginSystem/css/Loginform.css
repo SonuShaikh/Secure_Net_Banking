@@ -1,0 +1,48 @@
+body{
+	background-color:#ffffff;
+}
+#Login{
+	position:absolute;
+	width:320px;
+	height:200px;
+}
+#username{
+	height:30px;
+	width:300px;
+	border-radius:5px;
+        color:blue;
+}
+#password{
+	height:30px;
+	width:300px;
+	border-radius:5px;
+        color:blue;
+}
+#submit_btn{
+	width:300px;
+	height:30px;
+	text-align:center;
+	border-radius:5px;
+	box-shadow: 0px 1px 2px RGBA(0,0,0,.2);
+	
+}
+
+
+#submit_btn:hover { 
+    background-color:rgb(247,7,7); 
+	color:#ffffff;  
+  }
+#register{
+	color:yellow;
+}
+#register:hover{
+	color:red;
+	font-size:20px;
+}
+  #h3{
+	position:absolute;
+	top:130px;
+	left:520px;
+	color:white;
+	font-size:35px;
+}

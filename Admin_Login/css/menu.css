@@ -1,0 +1,132 @@
+body{
+	background-color:rgb(229,209,251);
+	background-image:url(../Images/online-banking-banner.jpg);
+}
+h2{
+	font-size:30px;
+	background-color:gray;
+	color:white;
+	text-align:center;
+}
+#h3{
+	position:absolute;
+	color:white;
+	top:-100px;
+	left:30px;
+	font-size:30px;
+}
+#menu ul{
+	list-style:none;
+}
+#menu ul li{
+	float:left;
+	width:130px;
+	padding:5px 10px;
+	text-align:center;
+	background-color:yellow;
+	margin-right:10px;
+	border-radius:5px;
+}
+#menu ul li:hover{
+	background-color:red;
+	color:white;
+}
+#menu{
+	width:850px;
+	margin:0 auto;
+}
+#menu a{
+	text-decoration:none;
+}
+#span1{
+	position:absolute;
+	top:650px;
+	left:550px;
+	color:black;
+	background-color:yellow;
+	border-radius:5px;
+	font-size:24px;
+}
+#Add_emp_btn{
+	
+	position:absolute;
+	width:100px;
+	border-radius:5px;
+	left:100px;
+	background-color:red;
+}
+#Addemp,#addbranch,#mang_emp,#Loan_deposit,#Loan_apps,#close_account,#Trans_money{
+	display:none;
+	position:absolute;
+	top:200px;
+	left:500px;
+	width:550px;
+	opacity:1;
+}
+#welcome{
+	position:absolute;
+	border:1px solid red;
+	top:200px;
+	left:250px;
+	color:red;
+}
+#Addemp label,#Loan_apps label,#Addemp label,#addbranch label,#mang_emp label,#close_account label,#Loan_deposit label,#bankmang label,#Trans_money label{
+	float:left;
+	width:150px;
+	color:blue;
+}
+#data{
+	position:absolute;
+	top:30px;
+	left:10px;
+}
+#search_txt{
+	border-radius:5px;
+}
+#search_btn{
+	position:absolute;
+	width:100px;
+	border-radius:5px;
+	left:350px;
+	background-color:red;
+	color:white;
+}
+#emp_data label{
+	width:130px;
+	color:blue;
+}
+#addbranch{
+	display:none;
+	position:absolute;
+	top:200px;
+	left:500px;
+	width:350px;
+}
+#add_branch_btn{
+	position:absolute;
+	width:100px;
+	border-radius:5px;
+	left:100px;
+	background-color:red;
+}
+.text{
+	border-radius:5px;
+}
+#bankmang{
+	display:none;
+	position:absolute;
+	top:200px;
+	left:500px;
+	width:350px;
+}
+#bankmang label{
+	float:left;
+	width:150px;
+	color:blue;
+}
+#add_manag{
+	position:absolute;	
+	border-radius:5px;
+	left:100px;
+	background-color:red;
+}

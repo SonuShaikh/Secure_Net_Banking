@@ -1,0 +1,109 @@
+
+body{
+	background-color:cyan;
+	margin:0px 0px 0px 0px;
+}
+/* #header{
+	background-color:blue;
+	height:100px;
+	color:white;
+	font-size:50px;
+	
+} */
+#center{
+	background-color:gray;
+	position:absolute;
+	width:500px;
+	height:150px;
+	top:200px;
+	left:450px;
+}
+.label{
+	color:white;
+	font-size:30px;
+	position:absolute;
+	left:70px;
+	
+}
+#email{
+	width:300px;
+	height:30px;
+	border-radius:10px;
+	font-size:20px;
+	color:blue;
+	position:absolute;
+	left:100px;
+}
+.btn{
+	width:150px;
+	height:25px;
+	background-color:red;
+	color:white;
+	text-align:center;
+	border-radius:5px;
+	position:absolute;
+	top:100px;
+	left:170px;	
+}
+#span1{
+	position:absolute;
+	
+	top:500px;
+	left:600px;
+	/* background-color:yellow;
+	width:200px;
+	height:30px; */
+	font-size:20px;
+}
+#confirm{
+	display:none;
+	background-color:gray;
+	position:absolute;
+	width:500px;
+	height:150px;
+	top:200px;
+	left:450px;
+}
+#confirm_label{
+	float:left; 
+	width:300px; 
+	font-size:24px;
+	color:white;
+    position:absolute;
+	top:40px;
+}
+#confirm_text{
+	position:absolute;
+	width:150px;
+	height:20px;
+	top:40px;
+	left:250px;
+	border-radius:5px;
+}
+#newpassword{
+	display:none;
+	background-color:gray;
+	position:absolute;
+	width:500px;
+	height:150px;
+	top:200px;
+	left:450px;
+}
+.pass_label{
+	margin-left:70px;
+	float:left;
+	width:160px;
+	color:white;
+	font-size:20px;
+}
+#update{
+	display:none;
+	background-color:yellow;
+	width:1365px;
+	height:582px;
+	font-size:60px;
+	text-align:center;	
+}
+a{
+	text-decoration:none;
+}

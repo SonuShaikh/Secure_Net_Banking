@@ -1,0 +1,23 @@
+#loan_apply_btn,#close,#pay_btn,#deposit_btn{
+	
+	position:absolute;
+	width:100px;
+	border-radius:5px;
+	left:100px;
+	background-color:red;
+}
+#cust_report{
+	display:none;
+	position:absolute;
+	top:150px;
+	left:500px;
+}
+#cust_report label{
+	float:left;
+	width:150px;
+	color:blue;
+}
+#span2{
+	position:absolute;
+	top:150px;
+}
